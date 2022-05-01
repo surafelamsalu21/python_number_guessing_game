@@ -33,7 +33,6 @@ while True:
     elif user_guess > random_number:
         print("Hotter")
     else:
-
         if user_guess == random_number:
             print(f"You got it and it took you {guesses} trial")
             quit()
